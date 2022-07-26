@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+   height: 50px;
+}
+h2{
+    margin: 0%;
+    padding: 0%;
+}
+#logo{
+    float:left;
+    padding: 5px;
+    margin-top: 5px;
+}
+#options{
+    float:left;
+    margin-left: 30%;
+}
+.toggleButton{
+    float: left;
+    margin-top: 8px;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 6px;
+}
+#html{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#output{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid grey;
+}
+
+.active{
+    background-color: #bdd1ff;
+}
+.check{
+    background-color: rgb(226, 222, 222);
+}
+#dayNight{
+    float:right;
+    margin-right:2%;
+    margin-top: 10px;
+}
+
+
+
+  textarea{
+    resize: none;
+    border-top: none;
+  }
+  .panel{
+    float: left;
+    border-left: none;
+  }
+  .hidden{
+    display: none;
+  }
+  .night{
+    background-color: #383838;
+    color:white;
+  }
+  .nightBody{
+    background-color: #1C2833;
+    color:white;
+  }
+  #htmlPanel{
+    background-image: url(img/html.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+  }
+  #cssPanel{
+    background-image: url(img/css.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  #javascriptPanel{
+    background-image: url(img/javascript.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+ 
